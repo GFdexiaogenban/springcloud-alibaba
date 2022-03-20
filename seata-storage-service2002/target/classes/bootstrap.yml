@@ -1,0 +1,55 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+spring:
+  application:
+    name: seata-storage-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seata_storage?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true
+    username: root
+    password: ckj
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        namespace: 1f9c392c-6924-4ae8-8ea8-9e5a8ac047d8
+      config:
+        server-addr: localhost:8848
+        namespace: 1f9c392c-6924-4ae8-8ea8-9e5a8ac047d8
+
+
+seata:
+  enabled: true
+  application-id: ${spring.application.name}
+  # 事务群组（可以每个应用独立取名，也可以使用相同的名字），要与服务端nacos-config.txt中service.vgroup_mapping的后缀对应
+  tx-service-group: ${spring.application.name}-tx-group
+  config:
+    type: nacos
+    # 需要和server在同一个注册中心下
+    nacos:
+      namespace: 1f9c392c-6924-4ae8-8ea8-9e5a8ac047d8
+      serverAddr: localhost:8848
+      # 需要server端(registry和config)、nacos配置client端(registry和config)保持一致
+      group: SEATA_GROUP
+      username: nacos
+      password: nacos
+  registry:
+    type: nacos
+    nacos:
+      # 需要和server端保持一致，即server在nacos中的名称，默认为seata-server
+      application: seata-server
+      server-addr: localhost:8848
+      group: SEATA_GROUP
+      namespace: 1f9c392c-6924-4ae8-8ea8-9e5a8ac047d8
+      username: nacos
+      password: nacos
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml

@@ -1,0 +1,32 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+    gateway:
+      discovery:
+        locator:
+          enabled: true #开启从注册中心获取服务名
+      routes:
+        - id: payment_routh1
+#          uri: http://localhost:8001
+          uri: lb://provider-payment # 目标服务
+          predicates:
+            - Path=/getPort/**
+#            - Cookie=chocolate, ch.p
+#            - Header=X-Request-Id, \d+ # 请求头要又X-Request-Id属性并且值为整数的正则表达式
+        - id: payment_routh2
+          uri: http://localhost:8001
+          predicates:
+            - Path=/payment/get/**
+              
+              
+
+
+service-url:
+  nacos-user-service: http://provider-payment

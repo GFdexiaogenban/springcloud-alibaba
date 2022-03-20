@@ -1,0 +1,15 @@
+server:
+  port: 8401
+spring:
+  profiles:
+    active: dev
+#    active: test
+#    active: info
+  application:
+    name: sentinel-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

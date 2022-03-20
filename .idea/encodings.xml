@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Consumer-feign-order85/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer-feign-order85/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer3377/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer3377/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer83/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer83/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer84/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Consumer84/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/all-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-business-service2003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-business-service2003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service2001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service2001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service2004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-order-service2004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service2002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seata-storage-service2002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-service8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sentinel-service8401/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

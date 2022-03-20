@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="all-api" />
+        <module name="gateway9527" />
+        <module name="Consumer3377" />
+        <module name="Consumer-feign-order85" />
+        <module name="seata-order-service2004" />
+        <module name="seata-business-service2003" />
+        <module name="Consumer" />
+        <module name="seata-storage-service2002" />
+        <module name="Consumer83" />
+        <module name="eureka-server7001" />
+        <module name="provider-payment8001" />
+        <module name="sentinel-service8401" />
+        <module name="Consumer84" />
+        <module name="provider-payment8003" />
+        <module name="provider-payment8002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EurekaStaudy" target="8" />
+      <module name="seata-order-service2001" target="8" />
+      <module name="seata-storage-service2001" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

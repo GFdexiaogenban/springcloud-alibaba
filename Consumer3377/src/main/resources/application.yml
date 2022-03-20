@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+#    active: test
+#    active: info
+  application:
+    name: nacos-config-client
+server:
+  port: 3377
